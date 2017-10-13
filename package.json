@@ -1,0 +1,23 @@
+{
+  "name": "bitrix24",
+  "version": "1.0.1",
+  "description": "Bitrix24 CRM",
+  "main": "index.js",
+  "author": "Eugene Samoylov",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "",
+    "serviceName": "Bitrix24",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": true,
+    "customURL": true,
+    "hostedOnly": true,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
