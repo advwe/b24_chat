@@ -1,7 +1,7 @@
 # Franz Bitrix24 Client
 
 ## Требования
- - Franz 4.0.4+
+ - Franz 5+
 
 ## Установка
  1. Скачайте ZIP архив https://github.com/advwe/b24_chat/archive/master.zip
