@@ -9,7 +9,7 @@
   "config": {
     "serviceURL": "https://we.adv.ru/",
     "hasNotificationSound": false,
-    "hasIndirectMessages": true,
+    "hasIndirectMessages": false,
     "hasTeamId": false,
     "hasCustomUrl": false
   }

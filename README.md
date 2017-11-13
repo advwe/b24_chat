@@ -1,5 +1,20 @@
-# Slack for Franz
-This is the official Franz recipe for Slack
+# Franz Bitrix24 Client
 
-### How to create your own Franz recipes:
-* [Read the documentation](https://github.com/meetfranz/plugins)
+## Требования
+ - Franz 4.0.4+
+
+## Установка
+ 1. Скачайте ZIP архив https://github.com/advwe/b24_chat/archive/master.zip
+ 1. Перейдите в папку с Плагинами
+Mac: `~/Library/Application\ Support/Franz/recipes/dev/`
+Windows: `%appdata%/Franz/recipes/dev/`
+Linux: `~/.config/Franz/recipes/dev/`
+ 1. Распакуйте архив в данной директории, чтобы получилось `/Franz/recipes/dev/24_chat-master`
+ 1. Если Franz был запущен, его необходимо полностью перезапустить
+
+## Настройка
+Послу перезагрузки, в левом меню Franz, есть кнопка "Добавить новый серсив", там появится новый таб "Разработка". В нем появится наш сервис "Bitrix24 For ADV".
+
+ 1. Добавьте сервис `Bitrix24 For ADV`
+ 2. Введите желаемое имя (оно будет отображаться сверху в табе, например `Bitrix24 ADV`)
+
