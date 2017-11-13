@@ -1,23 +1,16 @@
 {
-  "name": "bitrix24",
-  "version": "1.0.1",
-  "description": "Bitrix24 CRM",
+  "id": "Bitrix24-adv",
+  "name": "Bitrix24 For ADV",
+  "version": "1.0.2",
+  "description": "Bitrix24 for ADV",
   "main": "index.js",
-  "author": "Eugene Samoylov",
+  "author": "Samoylov Eugene <samoylov@adv.ru>",
   "license": "MIT",
   "config": {
-    "serviceURL": "",
-    "serviceName": "Bitrix24",
-    "message": "",
-    "popup": [],
+    "serviceURL": "https://we.adv.ru/",
     "hasNotificationSound": false,
-    "hasIndirectMessages": false,
-    "hasTeamID": true,
-    "customURL": true,
-    "hostedOnly": true,
-    "webviewOptions": {
-      "disablewebsecurity": ""
-    },
-    "openDevTools": false
+    "hasIndirectMessages": true,
+    "hasTeamId": false,
+    "hasCustomUrl": false
   }
 }

@@ -1,4 +1,6 @@
-// xmpp integration
+const path = require('path');
+const chatUrl = 'https://we.adv.ru/online/';
+
 module.exports = (Franz, options) => {
     const getMessages = () => {
         let msgContainers = document.querySelectorAll('.bx-messenger-cl-count-digit');
@@ -16,18 +18,14 @@ module.exports = (Franz, options) => {
 
     Franz.loop(getMessages);
 
-    const path = require('path');
-	Franz.injectCSS(path.join(__dirname, 'style.css'));
+    Franz.injectCSS(path.join(__dirname, 'style.css'));
 
-	// редирект на страницу с чатом
-	const team = options.team;
-	const chatUrl = team + '/online/';
-
-	if (location.href !== chatUrl) {
-		// проверяем не авторизация ли это
-		if (!document.querySelector('.login-item')) {
-			location.href = chatUrl;
-		}
-	}
+  	// редирект на страницу с чатом
+  	if (location.href !== chatUrl) {
+  		// проверяем не страница авторизации ли это
+  		if (!document.querySelector('.login-item')) {
+  			location.href = chatUrl;
+  		}
+  	}
 }
 
